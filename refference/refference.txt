@@ -1,0 +1,14 @@
+Bootstrap 公式
+https://getbootstrap.jp/docs/5.0/components/carousel/
+
+エフェクト
+https://animista.net/play/exits/flicker-out
+
+Git
+https://github.com/perl-entrance-org/Perl-Entrance-Textbook/blob/master/git.md
+
+css, javascript挙動確認
+https://codepen.io/pen/
+
+javascriptなどのプログラムの挙動確認
+https://paiza.io/ja/projects/new
