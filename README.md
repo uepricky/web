@@ -10,6 +10,7 @@ Markdown: [PON DESIGN](https://pon-design.netlify.app/)
 * jsは付けられる範囲で問題ないです。   
 * 下記の画像の様な写真をスライドショーのようにみせるカルーセルの実装ではCSSフレームワークのBootstrap(今後のコーディング案件でも使う機会が増えてくると思うので練習がてら色々試してみるのもいいかと思います。)を使用すると簡単に実装できます。カルーセルの実装では、サイズの調整とカルーセルがキチンと作動してあれば問題ありませんが、余力があれば色合いや遷移のエフェクトなどを模写サイトと同様にしてみてください。また、Bootstrapを使用せずに自身でJQuery等を使っていただいても構いません。   
 Markdown: [Bootstrap](https://getbootstrap.jp/docs/5.0/components/carousel/)   
+<img width="500" src="./readmeImg/readme.JPG">
 
 * サイト模写で使用する画像はimgフォルダー内に全て用意しています。   
 * またCSSはcssフォルダー内に随時作成していってください。   
