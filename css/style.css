@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+}
+
+#header__background {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 72px;
+    position: relative;
+    z-index: 1;
+}
+
+#header__subtitle {
+    color: #fff;
+    position: relative;
+}
+
+#btn__contact {
+    color: #fff;
+    position: relative;
+
+}
