@@ -1,31 +1,72 @@
-header {
-    text-align: center;
-}
-
-#header__background {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 0;
-}
-
-h1 {
+body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+    margin:0;
+}
+
+.header {
+    background-image: url(../img/hero.jpg);
+    width: 100%;
+    height: 100vh;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.white {
+    color: #fff;
+    padding:10px 30px;
+    font-size: 25px;
+    margin:20px;
+}
+
+.header__nav {
+    float: right;
+    padding:10px 30px;
+    margin:20px;
+
+}
+li {
+    color: #fff;
+    top:25px;
+    list-style: none;
+    font-size: 15px;
+    float:left;
+    padding:10px;
+}
+.header__top{
+    text-align: center;
+    margin-top:25vh;
+    /* padding:25% 0; */
+
+}
+h1 {
     color: #fff;
     font-size: 72px;
-    position: relative;
-    z-index: 1;
+    margin: 0;
 }
+
+.btn__contact {
+    padding: 20px 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid #fff;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+.header__content{
+    margin-top:50px;
+}    
+
+
 
 #header__subtitle {
     color: #fff;
-    position: relative;
-}
-
-#btn__contact {
-    color: #fff;
-    position: relative;
+    font-size: 24px;
 
 }
+
+
