@@ -87,6 +87,7 @@
 .background{
     background-image: url(img/hero.jpg);
     background-size: cover;
+    height: 940px;
 }
 
 .back-ground-title{
@@ -386,3 +387,142 @@ time{
     font-size: 11px;
 }
 
+
+
+
+
+
+
+/*レスポンシブ top.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*全体幅*/
+.responsive-frame{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+
+/*全体サブタイトル*/
+.big__title{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+
+
+/* < header部分 >*/
+
+
+
+/* < 背景部分 > */
+.background{
+    background-position: center;
+    height: 1025px;
+}
+
+.back-ground-title{
+    top: 40%;
+}
+
+.back-ground-title-1{
+    font-size: 48px;
+}
+
+
+
+/*コンテンツ内容*/
+
+/*NEWS*/
+.Overall-news{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.news-link-1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+
+/*service*/
+.text-service{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-service-1{
+    width: 100%;
+}
+
+.service-sub-title{
+    margin-top: 5%;
+}
+
+.service-sub-text{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.link-service{
+    margin-top: -5%;
+}
+
+
+
+/*WORKS*/
+
+
+/*COMPANY*/
+.Overall-company{
+    background: none;
+}
+
+
+/*RECRUIT*/
+.Overall-recruit{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.background-recruit{
+    width: 100%;
+    margin-top: -20%;
+    z-index: 1;
+}
+
+.recruit-title{
+    margin-top: 6%;
+}
+
+.recruit-img{
+    width: 100%;
+}
+
+
+
+/*CONTACT*/
+
+
+/* < header部分 >*/
+
+
+}
+
+
+
+
+
+
+
+/*レスポンシブ top.css(iphone SE)*/
+@media screen and (max-width :375px){
+    
+}
