@@ -1,0 +1,64 @@
+/*背景部分*/
+.service_background{
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.service_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.service_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*サービス画面 一覧*/
+.Service-screen-frame{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.Service-screen-text{
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+.Service-screen-img-img{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.Service-screen-img{
+    width: 80%;
+}
+
+.Service-screen-title-text{
+    width: 50%;
+}
+
+.Service-screen-title{
+    font-size: 26px;
+    padding-top: 6%;
+    letter-spacing: 2px;
+}
+
+.Service-screen-sub-text{
+    padding-top: 3%;
+}

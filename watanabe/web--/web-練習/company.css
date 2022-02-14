@@ -1,0 +1,124 @@
+/*背景部分*/
+.company_background{
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.company_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.company_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*company画面 一覧*/
+.big__title11{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #391e88;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Overall-company{
+    background-image: url(img/bg-face.png);
+    background-size: cover;
+    margin-top: 5%;
+    height: 400px;
+}
+
+.Overall-company1{
+    text-align: center;
+}
+
+.company-sub-title1{
+    padding-top: 3%;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+.company-sub-title{
+    border-bottom: 10px solid yellow;
+}
+
+.text-company{
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.link-company{
+    margin-top: -3%;
+}
+
+.company-Heading-overall{
+    margin-top: 6%;
+}
+
+.company-Heading-flex{
+    display: flex;
+}
+
+.company-Heading-img{
+    width: 45%;
+}
+
+.company-Heading-text{
+    padding: 5%;
+}
+
+
+
+/*会社概要*/
+.Company-overview-frame{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+.big__title1{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #391e88;
+    text-align: center;
+}
+
+.Company-overview-flex{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+dt{
+    width: 200px;
+}
+
+dd{
+    width: 800px;
+}
+
+/*Google map*/
+.map-link{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.flex-map{
+    margin-top: 6%;
+    margin-bottom: 9%;
+}

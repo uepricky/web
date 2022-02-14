@@ -1,0 +1,112 @@
+/* 背景部分 */
+.contact_background{
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.contact_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.contact_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/* ※必須 */
+.sub-contactform-title{
+    font-size: 13px;
+    margin-left: 2%;
+    color: #391e88;
+}
+
+/* お問い合わせフォーム */
+.contactform_frame{
+    margin-bottom: 4%;
+}
+
+.contactform_cover{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.contactform_background{
+    background-color: #f7f7f7;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px;
+    border-radius: 50px;
+}
+
+.contactform-title{
+    font-size: 15px;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+}
+
+.radio-menu{
+    display: flex;
+}
+
+.radio-space{
+    padding-right: 5%;
+}
+
+.label-title{
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+}
+
+textarea{
+    border-radius: 10px;
+    border: outset;
+}
+
+.input-text{
+    width: 350px;
+    padding: 5px;
+    border-radius: 10px;
+    border: outset;
+}
+
+select{
+    width: 300px;
+    border: outset;
+}
+
+.link-contactform{
+    text-align: center;
+    margin-bottom: -5%;
+    margin-top: 2%;
+}
+
+.button{
+    border: 1px solid #fff;
+    padding: 20px 73px;
+    border-radius: 32px;
+    display: inline-block;
+    margin: 40px 0;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #7633a4;
+    color: #fff;
+}

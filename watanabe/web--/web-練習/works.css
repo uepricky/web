@@ -1,0 +1,65 @@
+/*背景部分*/
+.works_background{
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.works_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.works_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*ワークス画面 一覧*/
+.works-screen-frame{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 6%;
+}
+
+.works-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
+.works-flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.works-screen-img-title{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.works-screen-img{
+    width: 90%;
+    box-shadow: -4px -4px 15px lightgray;
+}
+
+.works-screen-title{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 6%;
+}
