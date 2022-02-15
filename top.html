@@ -18,19 +18,29 @@
     <div class="wrapper">
       <header class="header">
         <div class="frame header-parallel">
-        <div class="header-logo">
-          <h1><a class="a-logo" href="top.html">PON DESIGN</a></h1>
-        </div>
-        <div class="nav__header">
-          <ul class="nav__arrangement_header">
-            <li class="nav__item_header"><a class="nav__link_header" href="news.html">NEWS</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="service.html">SERVICE</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="works.html">WORKS</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="company.html">COMPANY</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="recruit.html">RECRUIT</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
+          <nav class="g-navi">
+            <div class="nav__arrangement_header nav-wrapper">
+              <ul class="pc-header-list-flex">
+                <li class="nav__item_header"><a class="nav__link_header" href="news.html">NEWS</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="service.html">SERVICE</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="works.html">WORKS</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="company.html">COMPANY</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="recruit.html">RECRUIT</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- ハンバーガーメニュー -->
+          <nav class="g-navi-sp">
+            <div class="header-logo">
+              <p class="logo-title"><a class="a-logo" herf="top.html">PON DESIGN</a></p>
+            </div>
+            <div class="menu-trigger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
         </div>
       </header>
       <div class="background">
@@ -42,7 +52,7 @@
       </div>
       <div class="contents" id="">
         <section class="NEWS" id="">
-          <div class="frame responsive-frame">  
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">  
             <div class="Overall-news">
               <div class="sub-title">
                 <h2 class="big__title">NEWS<span class="center1 sub__title">お知らせ</span></h2>
@@ -86,7 +96,7 @@
           </div>
         </section>
         <section class="SERVICE" id="">
-          <div class="frame responsive-frame"> 
+          <div class="frame responsive-ipad-frame responsive-iphone-frame"> 
               <div>
                 <h2 class="center2 big__title">SERVICE<span class="sub__title">事業内容</span></h2>
               </div>
@@ -113,7 +123,7 @@
           </div>
         </section>
         <section class="WORKS" id="">
-          <div class="frame">
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">
             <div class="Overall-works">
               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -151,7 +161,7 @@
           </div>
         </section>
         <section class="company" id="">
-          <div class="frame responsive-frame">
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">
             <div class="Overall-company">
               <div class="Overall-company1">
                 <div class="big__title company-title">
@@ -171,7 +181,7 @@
           </div>
         </section>
         <section class="RECRUIT" id="">
-          <div class="frame responsive-frame">
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">
             <div class="Overall-recruit">
               <div class="background-recruit">
                 <div class="big__title recruit-title">
@@ -203,7 +213,7 @@
         </section>
       </div>
       <footer class="footer">
-        <div class="frame responsive-frame">
+        <div class="frame responsive-ipad-frame responsive-iphone-frame">
           <div>
             <ul class="nav__arrangement_footer">
               <li class="nav__item_footer"><a class="nav__link_footer" href="top.html">HOME</a></li>
@@ -221,5 +231,7 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </body>
 </html>

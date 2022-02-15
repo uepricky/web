@@ -49,6 +49,7 @@
 .header-parallel{
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .header-logo{
@@ -70,6 +71,11 @@
     margin: 5px 0;
 }
 
+.pc-header-list-flex{
+    display: flex;
+    margin-bottom: 0rem;
+}
+
 .nav__item_header{
     padding: 20px;
 }
@@ -79,6 +85,15 @@
     letter-spacing: 1px;
     color: #fff;
     font-weight: bold;
+}
+
+.g-navi-sp{
+    display: flex;
+    align-items: center;
+}
+
+.logo-title{
+    margin-bottom: 0rem;
 }
 
 
@@ -248,12 +263,11 @@ time{
 
 .background-works{
     background-color: #f0f0f0;
-    padding: 10% 10% 12% 30%;
+    padding: 6% 10% 6% 9%;
     display: inline-block;
     position: absolute;
-    top: -10%;
-    left: 38%;
-    z-index: -1;
+    top: -3%;
+    left: 60%;
 }
 
 .text-works{
@@ -396,7 +410,7 @@ time{
 /*レスポンシブ top.css(ipad mini)*/
 @media screen and (max-width :768px){
 /*全体幅*/
-.responsive-frame{
+.responsive-ipad-frame{
     margin: 0 auto;
     max-width: 700px;
 }
@@ -412,6 +426,99 @@ time{
 
 
 /* < header部分 >*/
+.nav__arrangement_header{
+    display: block;
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+/* ハンバーガーメニュー起動時の画面 */
+/*ナビメニューのスタイルを指定*/
+.g-navi{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    padding-top: 60px;
+    transform: translateY(-100%);
+    transition: .5s ease-in-out;
+    height: 100vh;
+    width: 100%;
+}
+
+.g-navi ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 35%;
+}
+
+.g-navi.active{
+    transform: translateY(0%);
+    transition: .5s ease-in-out;
+    background-color: #21054d;
+}
+
+
+.g-navi-sp{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21054d;
+    width: 100%;
+    height: 60px;
+    padding: 4%;
+    z-index: 3;
+}
+
+.logo-title{
+    margin-bottom: 0rem;
+}
+
+
+
+/* ハンバーガーメニュー */
+.menu-trigger{
+    position: relative;
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.menu-trigger span{
+    display: block;
+    position: absolute;
+    width: 30px;
+    border-bottom: solid 3px #fff;
+    border-radius: 3px;
+    transition: .35s ease-in-out;
+}
+
+.menu-trigger span:nth-child(1){
+    top: 6px;
+}
+
+.menu-trigger span:nth-child(2){
+    top: 18px;
+}
+
+.menu-trigger span:nth-child(3){
+    top: 30px;
+}
+
+/* 一番上のspan要素をマイナス45度方向に回す */
+.menu-trigger.active span:nth-child(1){
+    top: 18px;
+    transform: rotate(-45deg);
+}
+
+/* 2番目と3番目のspan要素を45度方向に回す */
+.menu-trigger.active span:nth-child(2),
+.menu-trigger.active span:nth-child(3){
+    top: 18px;
+    transform: rotate(45deg);
+}
 
 
 
@@ -478,12 +585,62 @@ time{
 
 
 /*WORKS*/
+.carousel-fade .carousel-item{
+    width: 100%;
+}
 
+.left-prev{
+    left: -1%;
+}
+
+.right-naxt{
+    right: -1%;
+}
+
+.background-works{
+    top: 100%;
+    left: 0%;
+    width: 100%;
+}
+
+.text-works{
+    margin-top: 3%;
+    padding-right: 7%;
+}
+
+.sub-text-owrks{
+    margin-top: -6%;
+}
+
+.link-works{
+    margin-top: -3%;
+    margin-bottom: -12%;
+}
 
 /*COMPANY*/
 .Overall-company{
     background: none;
+    background-image: url(img/sp_bg-circle.png);
+    margin-top: 65%;
 }
+
+.company-title{
+    margin-top: 40%;
+}
+
+.company-sub-title1{
+    width: 44%;
+    display: inline-block;
+}
+
+.company-sub-title{
+    font-size: 32px;
+}
+
+.text-company{
+    font-size: 14px;
+}
+
 
 
 /*RECRUIT*/
@@ -524,24 +681,162 @@ time{
 
 /*レスポンシブ top.css(iphone SE)*/
 @media screen and (max-width :375px){
+/*全体幅*/
+.responsive-iphone-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+
+/*全体サブタイトル*/
+
+
+
+/* < header部分 >*/
+.nav__item_header{
+    width: 90%;
+}
+
+.a-logo{
+    font-size: 14px;
+}
+
+
+/* < 背景部分 > */
+.background{
+    height: 700px;
+}
+
+.back-ground-title{
+    top: 30%;
+}
+
+.back-ground-title-2{
+    font-size: 16px;
+}
+
+
+/*コンテンツ内容*/
+
+/*NEWS*/
+.Overall-news{
+    margin-top: 12%;
+}
+
+.news-link-1{
+    margin-top: 2%;
+}
+
+.news-link{
+    font-size: 14px;
+}
+
+
 /*service*/
+.center2{
+    margin-bottom: 10%;
+}
+
+.service-sub-title{
+    font-size: 18px;
+}
+
+.service-sub-text{
+    font-size: 14px;
+    margin-top: 0%;
+    margin-bottom: 8%;
+}
+
+.link-service{
+    margin-top: -10%;
+    margin-bottom: 35%;
+}
 
 
 /*WORKS*/
+.title-works{
+    margin-top: 8%;
+}
 
+.sub-text-owrks{
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+.link-works{
+    margin-top: -7%;
+}
 
 
 /*COMPANY*/
+.Overall-company{
+    margin-top: 130%;
+}
 
+.company-sub-title1{
+    width: 81%;
+}
+
+.text-company{
+    margin-top: 18%;
+}
+
+.link-company{
+    margin-top: -8%;
+}
 
 
 /*RECRUIT*/
+.Overall-recruit{
+    margin-top: 45%;
+    margin-bottom: 25%;
+}
 
+.background-recruit{
+    margin-top: 0%;
+}
+
+.recruit-title{
+    margin-top: 16%;
+}
+
+.text-recruit{
+    font-size: 14px;
+}
+
+.recruit-img{
+    height: 140px;
+}
 
 
 /*CONTACT*/
+.text-contact{
+    font-size: 14px;
+    width: 65%;
+    display: inline-block;
+    margin-top: 5%;
+}
 
 
 
 /* < footer部分 >*/
+.footer{
+    padding-top: 5%;
+}
+
+.nav__arrangement_footer{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav__link_footer{
+    font-size: 12px;
+}
+
+.link-home{
+    margin-top: -5%;
+    margin-bottom: 9%;
+}
+
+
 }
