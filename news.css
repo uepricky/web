@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 270px;
 }
 
 .news-background-title{
@@ -35,4 +36,37 @@
 
 .news-link-1{
     width: 73%;
+}
+
+
+
+
+/*レスポンシブ top.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*コンテンツ内容*/
+
+/*NEWS*/
+.news-link-1{
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+}
+
+
+
+
+/*レスポンシブ top.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*背景部分*/
+.news_background{
+    height: 230px;
+}
+
+.news-background-title{
+    padding-top: 15%;
+}
+
+
 }

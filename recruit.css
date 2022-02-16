@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 270px;
 }
 
 .recruit-background-title{
@@ -104,6 +105,10 @@
     margin-top: 3%;
 }
 
+.pc_none_responsive_block{
+    display: none;
+}
+
 dt{
     width: 200px;
 }
@@ -154,4 +159,77 @@ dd{
 
 .In-house-MOVIE_Youtube{
     margin-bottom: 15%;
+}
+
+
+
+
+
+/*レスポンシブ top.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*enjoy 画面*/
+.enjoy-title{
+    font-size: 48px;
+}
+
+.enjoy-sub-title{
+    font-size: 18px;
+}
+
+.enjoy-text{
+    font-size: 15px;
+    margin-bottom: -1%;
+}
+
+.enjoy-background{
+    clip-path: polygon(100% 0% , 0% 10% , 0% 100% , 100% 90%);
+}
+
+
+
+/*募集中の職種 画面*/
+.Occupation-overview-frame{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.Occupation-flex{
+    display: block;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+dd{
+    width: 600px;
+}
+
+.Occupation-ul{
+    margin-left: -13px;
+}
+
+
+
+/*社内ムービー 画面*/
+iframe{
+    height: 400px;
+}
+
+}
+
+
+
+
+/*レスポンシブ top.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*背景部分*/
+.recruit_background{
+    height: 230px;
+}
+
+.recruit-background-title{
+    padding-top: 15%;
+}
+
 }

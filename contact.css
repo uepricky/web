@@ -110,3 +110,20 @@ select{
     background-color: #7633a4;
     color: #fff;
 }
+
+
+
+
+
+/*レスポンシブ top.css(ipad mini)*/
+@media screen and (max-width :768px){
+
+}
+
+
+
+
+/*レスポンシブ top.css(iphone SE)*/
+@media screen and (max-width :375px){
+    
+}

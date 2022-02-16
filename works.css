@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 270px;
 }
 
 .works-background-title{
@@ -62,4 +63,78 @@
     font-weight: normal;
     letter-spacing: 2px;
     margin-top: 6%;
+}
+
+
+
+
+
+/*レスポンシブ top.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*全体幅*/
+.responsive-ipad-frame{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+/*WORKS*/
+.works-screen-img-title{
+    width: 100%;
+}
+
+.works-screen-img{
+    width: 100%;
+}
+
+.works-screen-title{
+    margin-top: 3%;
+    margin-bottom: 7%;
+    font-size: 17px;
+}
+
+.works-flex{
+    margin-top: 10%;
+}
+
+.works-flex1{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+}
+
+
+
+
+/*レスポンシブ top.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*全体幅*/
+.responsive-iphone-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+/*背景部分*/
+.works_background{
+    height: 230px;
+}
+
+.works-background-title{
+    padding-top: 15%;
+}
+
+/*WORKS*/
+.works-screen-title{
+    margin-bottom: 12%;
+    font-size: 16px;
+}
+
+.works-flex{
+    margin-top: 14%;
+}
+
+.works-flex1{
+    margin-bottom: 10%;
+}
+
 }

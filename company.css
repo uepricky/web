@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 270px;
 }
 
 .company-background-title{
@@ -25,7 +26,7 @@
 
 
 
-/*company画面 一覧*/
+/*company メッセージ 一覧*/
 .big__title11{
     font-size: 36px;
     letter-spacing: 5px;
@@ -51,6 +52,11 @@
     font-weight: bold;
     letter-spacing: 6px;
 }
+
+.pc_none_responsive_block{
+    display: none;
+}
+
 
 .company-sub-title{
     border-bottom: 10px solid yellow;
@@ -121,4 +127,168 @@ dd{
 .flex-map{
     margin-top: 6%;
     margin-bottom: 9%;
+}
+
+
+
+
+
+/*レスポンシブ company.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*company メッセージ 一覧*/
+.Overall-company{
+    margin-top: -25%;
+    background: none;
+    background-image: url(img/sp_bg-circle.png);
+    background-size: contain;
+}
+
+.big__title11{
+    font-size: 30px;
+}
+
+.company-sub-title1{
+    margin-top: -10%;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+
+
+
+/*companyテキスト一覧*/
+.company-Heading-overall{
+    margin-bottom: -30%;
+}
+
+.company-Heading-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-Heading-img{
+    width: 100%;
+}
+
+.company-Heading-text-center{
+    text-align: center;
+}
+
+.company-Heading-text{
+    width: 92%;
+}
+
+
+
+
+/*会社概要*/    
+.company-title{
+    margin-bottom: 10%;
+    margin-top: 35%;
+}
+
+.big__title1{
+    font-size: 30px;
+}
+
+dl{
+    margin-bottom: 15%;
+}
+
+dt{
+    text-align: center;
+    width: 250px;
+}
+
+dd{
+    text-align: start;
+    width: 500px;
+}
+
+.company-resuponsive-hr{
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+}
+
+
+
+
+/*レスポンシブ company.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*全体幅*/
+.responsive-iphone-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+/*背景部分*/
+.company_background{
+    height: 230px;
+}
+
+.company-background-title{
+    padding-top: 15%;
+}
+
+
+
+/*company メッセージ 一覧*/
+.company-title{
+    margin-top: 40%;
+}
+
+.text-company{
+    margin-top: 12%;
+}
+
+
+/*company テキスト 一覧*/
+.company-Heading-text-center{
+    text-align: -webkit-center;
+}
+
+.company-Heading-text{
+    width: 84%;
+}
+
+
+
+/*会社概要*/
+.company-resuponsive-hr{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+dt{
+    font-size: 13px;
+    width: 300px;
+}
+
+dd{
+    font-size: 13px;
+    width: 550px;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+
+
+/*Google Map 一覧*/
+.flex-map{
+    margin-bottom: 25%;
+}
+
+
+/*contact 一覧*/
+.contact-title{
+
+
+}
+
 }

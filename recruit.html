@@ -20,22 +20,32 @@
     <div class="wrapper">
       <header class="header">
         <div class="frame header-parallel">
-        <div class="header-logo">
-          <h1><a class="a-logo" href="top.html">PON DESIGN</a></h1>
-        </div>
-        <div class="nav__header">
-          <ul class="nav__arrangement_header">
-            <li class="nav__item_header"><a class="nav__link_header" href="news.html">NEWS</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="service.html">SERVICE</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="works.html">WORKS</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="company.html">COMPANY</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="recruit.html">RECRUIT</a></li>
-            <li class="nav__item_header"><a class="nav__link_header" href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
+          <nav class="g-navi">
+            <div class="nav__arrangement_header nav-wrapper">
+              <ul class="pc-header-list-flex">
+                <li class="nav__item_header"><a class="nav__link_header" href="news.html">NEWS</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="service.html">SERVICE</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="works.html">WORKS</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="company.html">COMPANY</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="recruit.html">RECRUIT</a></li>
+                <li class="nav__item_header"><a class="nav__link_header" href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- ハンバーガーメニュー -->
+          <nav class="g-navi-sp">
+            <div class="header-logo">
+              <p class="logo-title"><a class="a-logo" herf="top.html">PON DESIGN</a></p>
+            </div>
+            <div class="menu-trigger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
         </div>
       </header>
-      <div class="recruit_background" style="height: 270px;">
+      <div class="recruit_background">
         <div class="recruit-background-title">
           <h1 class="recruit_big__title">RECRUIT<span class="recruit_sub__title">採用情報</span></h1>
         </div>
@@ -43,7 +53,7 @@
       <div class="contents" id="">
         <div class="recruit_overall_background">
           <section class="ENJOY">
-          <div class="frame">
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">
             <div class="enjoy-overall">
               <h3 class="enjoy-title">Enjoy Creation for client</h3>
               <h4 class="enjoy-sub-title">楽しむ心が良いものを生む</h4>
@@ -83,7 +93,7 @@
                 <div class="Occupation-flex">
                   <dt>応募資格</dt>
                   <div class="Occupation-Application">
-                    <p>PhotoshopやXDなどのデザインツールの使い方を理解し、コーディングの基礎スキルがある方。<br>実務未経験でも学校や独学で学習した方を歓迎します。</p>  
+                    <p>PhotoshopやXDなどのデザインツールの使い方を理解し、<br class="pc_none_responsive_block">コーディングの基礎スキルがある方。<br>実務未経験でも学校や独学で学習した方を歓迎します。</p>  
                     <ul class="Occupation-ul">
                       <li>デザインやコーディングを楽しめる方</li>
                       <li>常にアンテナを張って積極的にトレンドや最新の技術を取り入れる方</li>
@@ -101,12 +111,12 @@
           </div>
           </section>
           <section class="In-house-MOVIE">
-          <div class="frame">
+          <div class="frame responsive-ipad-frame responsive-iphone-frame">
             <div class="In-house-MOVIE_center">
               <h2 class="big__title13">社内ムービー</h2>
             </div>
             <div class="In-house-MOVIE_Youtube">
-              <iframe width="1140" height="600" src="https://www.youtube.com/embed/VwbnZHvQ3CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" height="600" src="https://www.youtube.com/embed/VwbnZHvQ3CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           </section>
@@ -126,7 +136,7 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="frame">
+        <div class="frame responsive-ipad-frame responsive-iphone-frame">
           <div>
             <ul class="nav__arrangement_footer">
               <li class="nav__item_footer"><a class="nav__link_footer" href="top.html">HOME</a></li>
@@ -144,5 +154,7 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </body>
 </html>  
