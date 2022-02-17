@@ -49,6 +49,7 @@
     font-weight: normal;
     text-align: center;
     margin-top: 2%;
+    color: #391e88;
 }
 
 .enjoy-text{
@@ -119,7 +120,7 @@ dt{
 }
 
 dd{
-    width: 700px;
+    width: 600px;
     letter-spacing: 2px;
 }
 
@@ -220,7 +221,7 @@ dd{
 }
 
 dd{
-    width: 600px;
+    width: 550px;
     padding-top: 4%;
 }
 
@@ -261,6 +262,7 @@ iframe{
 .enjoy-title{
     line-height: 55px;
     margin-top: 10%;
+    font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
 }
 
 .enjoy-sub-title{
@@ -290,12 +292,18 @@ iframe{
     margin-bottom: 10%;
 }
 
+.Occupation_frame_frame{
+    border-radius: 30px;
+}
+
 .Occupation_sub_title{
     font-size: 18px;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 dd{
-    width: 300px;
+    width: 250px;
 }
 
 .link-Occupation{

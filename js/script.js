@@ -14,3 +14,11 @@ $(function () {
         $('.g-navi').removeClass('active');          //(.g-navi)にある(.active)も削除する。
     });
 });
+
+
+jQuery(window).on('scroll', function () {
+ 
+    if (jQuery('.header').height() < jQuery(this).scrollTop()) { 
+   jQuery('.header').addClass('header_active'); }
+    else {
+    jQuery('.header').removeClass('header_active'); } });

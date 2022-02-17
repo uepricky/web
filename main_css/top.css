@@ -40,10 +40,16 @@
 .header{
     height: auto;
     align-items: center;
-    background-color: #21054d;
     position: fixed;
     z-index: 10;
     width: 100%;
+    transition: all 0.5s;
+    padding: 10px 0;
+}
+
+.header_active{
+    background-color: #21054d;
+    padding: 1px 0;
 }
 
 .header-parallel{
@@ -293,7 +299,7 @@ time{
 
 /*CONPANY*/
 .Overall-company{
-    background-image: url(img/bg-face.png);
+    background-image: url(../img/bg-face.png);
     background-size: cover;
     margin-top: 20%;
     height: 400px;
@@ -427,6 +433,10 @@ time{
 
 
 /* < header部分 >*/
+.header{
+    padding: 0;
+}
+
 .nav__arrangement_header{
     display: block;
     text-align: center;
@@ -856,8 +866,8 @@ time{
 }
 
 .link-home{
-    margin-top: -5%;
-    margin-bottom: 9%;
+    margin-top: -3%;
+    margin-bottom: 1%;
 }
 
 
