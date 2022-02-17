@@ -57,6 +57,18 @@
     align-items: center;
 }
 
+.logo-title{
+    margin-bottom: 0rem;
+}
+
+.a-logo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+}    
+
 .nav__arrangement_header{
     list-style: none;
     display: flex;
@@ -83,14 +95,6 @@
 .g-navi-sp{
     display: flex;
     align-items: center;
-}
-
-.logo-title{
-    margin-bottom: 0rem;
-    font-weight: bold;
-    font-size: 30px;
-    letter-spacing: 3px;
-    color: #fff;
 }
 
 
