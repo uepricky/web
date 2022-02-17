@@ -198,6 +198,19 @@ select{
     padding: 9%;
 }
 
+.contactform-title{
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.radio-menu{
+    margin-bottom: 10%;
+}
+
+.label-title{
+    margin-bottom: 6%;
+}
+
 .pc_none_responsive_block{
     display: block;
 }
