@@ -1,6 +1,6 @@
 /*背景部分*/
 .company_background{
-    background-image: url(img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@
 }
 
 .Overall-company{
-    background-image: url(img/bg-face.png);
+    background-image: url(../img/bg-face.png);
     background-size: cover;
     margin-top: 5%;
     height: 400px;
@@ -139,7 +139,7 @@ dd{
 .Overall-company{
     margin-top: -25%;
     background: none;
-    background-image: url(img/sp_bg-circle.png);
+    background-image: url(../img/sp_bg-circle.png);
     background-size: contain;
 }
 
@@ -286,9 +286,6 @@ dd{
 
 
 /*contact 一覧*/
-.contact-title{
 
-
-}
 
 }

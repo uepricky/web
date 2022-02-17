@@ -1,6 +1,6 @@
 /*背景部分*/
 .recruit_background{
-    background-image: url(img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
 
 /*enjoy 全画面*/
 .recruit_overall_background{
-    background-image: url(img/bg-geometry.png);
+    background-image: url(../img/bg-geometry.png);
 }
 
 
@@ -60,7 +60,7 @@
 }
 
 .enjoy-background{
-    background-image: url(img/recruit01.jpg);
+    background-image: url(../img/recruit01.jpg);
     background-size: cover;
     background-position: center 90%;
     clip-path: polygon(100% 0% , 0% 15% , 0% 100% , 100% 85%);

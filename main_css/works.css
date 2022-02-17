@@ -1,6 +1,6 @@
 /*背景部分*/
 .works_background{
-    background-image: url(img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     display: flex;
     align-items: center;

@@ -97,7 +97,7 @@
 
 /* < 背景部分 > */
 .background{
-    background-image: url(img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     height: 940px;
 }
