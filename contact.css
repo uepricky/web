@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 270px;
 }
 
 .contact-background-title{
@@ -111,12 +112,73 @@ select{
     color: #fff;
 }
 
+.pc_none_responsive_block{
+    display: none;
+}
+
 
 
 
 
 /*レスポンシブ top.css(ipad mini)*/
 @media screen and (max-width :768px){
+/* 背景部分 */
+.contact_background{
+    height: 230px;
+}
+
+.contact-background-title{
+    padding-top: 15%;
+}
+
+
+
+/* お問い合わせフォーム */
+.contactform_frame{
+    margin-bottom: 12%;
+}
+
+.contactform_cover{
+    margin: 6% 0;
+}
+
+.contactform_background{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.contactform-title{
+    letter-spacing: 3px;
+}
+
+.radio-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-title{
+    letter-spacing: 3px;
+}
+
+.input-text{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+}
+
+.link-contactform{
+    margin-bottom: -11%;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
 
 }
 
@@ -125,5 +187,19 @@ select{
 
 /*レスポンシブ top.css(iphone SE)*/
 @media screen and (max-width :375px){
-    
+/* お問い合わせフォーム */
+.contactform_cover{
+    margin: 10% 0;
+}
+
+.contactform_background{
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 9%;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
 }

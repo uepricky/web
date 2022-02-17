@@ -64,6 +64,7 @@
     background-size: cover;
     background-position: center 90%;
     clip-path: polygon(100% 0% , 0% 15% , 0% 100% , 100% 85%);
+    height: 780px;
 }
 
 
@@ -106,6 +107,10 @@
 }
 
 .pc_none_responsive_block{
+    display: none;
+}
+
+.pc_none_responsive_block1{
     display: none;
 }
 
@@ -183,6 +188,7 @@ dd{
 
 .enjoy-background{
     clip-path: polygon(100% 0% , 0% 10% , 0% 100% , 100% 90%);
+    height: 780px;
 }
 
 
@@ -197,12 +203,25 @@ dd{
     display: block;
 }
 
+.Occupation-p{
+    padding-top: 4%;
+}
+
+.Occupation-ul{
+    padding-top: 3%;
+}
+
 .pc_none_responsive_block{
     display: block;
 }
 
+.pc_none_responsive_block1{
+    display: none;
+}
+
 dd{
     width: 600px;
+    padding-top: 4%;
 }
 
 .Occupation-ul{
@@ -230,6 +249,79 @@ iframe{
 
 .recruit-background-title{
     padding-top: 15%;
+}
+
+.pc_none_responsive_block1{
+    display: block;
+}
+
+
+
+/*enjoy 画面*/
+.enjoy-title{
+    line-height: 55px;
+    margin-top: 10%;
+}
+
+.enjoy-sub-title{
+    margin: 6% 0;
+}
+
+.enjoy-text{
+    line-height: 25px;
+    margin-bottom: 10%;
+}
+
+.enjoy-background{
+    height: 400px;
+}
+
+
+
+/*募集中の職種 画面*/
+.Occupation-overview-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+.big__title12{
+    font-size: 24px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Occupation_sub_title{
+    font-size: 18px;
+}
+
+dd{
+    width: 300px;
+}
+
+.link-Occupation{
+    margin-top: -4%;
+    margin-bottom: 4%;
+}
+
+.Occupation-sub-btn{
+    font-size: 12px;
+}
+
+
+
+/*社内ムービー 画面*/
+.big__title13{
+    font-size: 24px;
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+.In-house-MOVIE_Youtube{
+    margin-bottom: 30%;
+}
+
+iframe{
+    height: 200px;
 }
 
 }

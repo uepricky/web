@@ -38,6 +38,10 @@
     width: 73%;
 }
 
+.pc_none_responsive_block{
+    display: none;
+}
+
 
 
 
@@ -51,6 +55,9 @@
     margin-top: 2%;
 }
 
+.pc_none_responsive_block{
+    display: none;
+}
 
 }
 
@@ -68,5 +75,15 @@
     padding-top: 15%;
 }
 
+
+
+/*NEWS*/
+.news-link-1{
+    width: 91%;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
 
 }

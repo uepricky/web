@@ -57,14 +57,6 @@
     align-items: center;
 }
 
-.a-logo{
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 30px;
-    letter-spacing: 3px;
-}
-
 .nav__arrangement_header{
     list-style: none;
     display: flex;
@@ -78,6 +70,7 @@
 
 .nav__item_header{
     padding: 20px;
+    list-style: none;
 }
 
 .nav__link_header{
@@ -94,6 +87,10 @@
 
 .logo-title{
     margin-bottom: 0rem;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #fff;
 }
 
 
@@ -432,6 +429,10 @@ time{
     margin: 5% 0;
 }
 
+.logo-title{
+    font-size: 14px;
+}
+
 
 /* ハンバーガーメニュー起動時の画面 */
 /*ナビメニューのスタイルを指定*/
@@ -669,8 +670,16 @@ time{
 
 
 /* < footer部分 >*/
+.footer{
+    padding: 3% 0;
+}
+
 .nav__arrangement_footer{
     width: 95%;
+}
+
+.link-home{
+    padding-bottom: 3%;
 }
 
 }
