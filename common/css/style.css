@@ -301,7 +301,7 @@ time{
 
 /*CONPANY*/
 .Overall-company{
-    background-image: url(../img/bg-face.png);
+    background-image: url(../../company/img/bg-face.png);
     background-size: cover;
     margin-top: 20%;
     height: 400px;
