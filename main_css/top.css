@@ -44,7 +44,7 @@
     z-index: 10;
     width: 100%;
     transition: all 0.5s;
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 .header_active{
@@ -56,6 +56,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    margin: 0 auto;
+    max-width: 1600px;
 }
 
 .header-logo{
