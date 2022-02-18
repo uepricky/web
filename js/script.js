@@ -18,7 +18,16 @@ $(function () {
 
 jQuery(window).on('scroll', function () {
  
-    if (jQuery('.header').height() < jQuery(this).scrollTop()) { 
+    if (jQuery('.header').height() < jQuery(this).scrollTop() > 0) { 
    jQuery('.header').addClass('header_active'); }
     else {
     jQuery('.header').removeClass('header_active'); } });
+    
+    
+
+jQuery(window).on('scroll', function () {
+ 
+    if (jQuery('.g-navi-sp').height() < jQuery(this).scrollTop() > 0) { 
+    jQuery('.g-navi-sp').addClass('active'); }
+    else {
+    jQuery('.g-navi-sp').removeClass('active'); } });  
