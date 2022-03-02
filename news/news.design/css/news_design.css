@@ -1,0 +1,355 @@
+/*背景部分*/
+.news_design_background{
+    background-image: url(../../../common/img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+
+.news_design-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.news_design_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.news_design_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+/*コンテンツ内容*/
+/*WEB_DESIGN*/
+
+.news_design_title{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.news-time-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+time{
+    font-size: 14px;
+}
+
+.category{
+    background-color: #e8e8e8;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 20px;
+    display: block;
+    width: 72px;
+    text-align: center;
+}
+
+.news_design_img_img{
+    text-align: center;
+}
+
+.news_design_img{
+    width: 100%;
+}
+
+.news_design_text{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+/*大見出し*/
+.news_design_Headline{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+/*小見出し*/
+.news_design_Subheading{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+/*各種リンク*/
+.news_desihn_link{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.line-it-button{
+    margin-left: 13px;
+}
+
+.news_design_hatena_link{
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+.hatena_link{
+    text-decoration: none;
+    color: #fff;
+    background:rgb(0 , 164 , 222);
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+/*NEWS リスト一覧*/
+.frame_news_design_link{
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.news_design_border{
+    height: 2px;
+    color: darkviolet;
+}
+
+.design_list{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.news_design_frame_list{
+    width: 330px;
+}
+
+.design_list_link{
+    text-decoration: none;
+    color: black;
+}
+
+.border_height{
+    border: 1px solid darkviolet;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.news_design_frame_list1{
+    width: 340px;
+}   
+
+.design_list1{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 13%;
+}
+
+.design_list_link1{
+    text-decoration: none;
+    color: black;
+}
+
+/*改行*/
+.pc_none_responsive_block{
+    display: none;
+}
+
+.pc_block_responsive_none{
+    display: block;
+}
+
+
+
+
+/*レスポンシブ news.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*全体*/
+.responsive-ipad-frame{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+
+/*改行*/
+.pc_none_responsive_block{
+    display: none;
+}
+
+.pc_block_responsive_none{
+    display: block;
+}
+
+
+
+/*コンテンツ内容*/
+
+/*WEB_DESIGN*/
+.news_design_title{
+    font-size: 22px;
+    margin-top: 7%;
+}
+
+.news-time-category{
+    margin-bottom: 4%;
+}
+
+.news_design_text{
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+
+/*大見出し*/
+.news_design_Headline{
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+
+/*小見出し*/
+.news_design_Subheading{
+    font-size: 16px;
+    margin-top: 6%;
+}
+
+
+
+/*各種リンク*/
+.news_desihn_link{
+    margin-bottom: 7%;
+}
+
+.design_list1{
+    margin-top: 6%;
+}
+
+
+/*NEWS リスト一覧*/
+.design_list_link{
+    font-size: 12px;
+}
+
+.news_design_frame_list{
+    text-align: center;
+}
+
+.news_design_frame_list1{
+    text-align: center;
+}
+
+}
+
+
+
+
+/*レスポンシブ news.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*背景部分*/
+.news_design_background{
+    height: 230px;
+}
+
+.news_design-background-title{
+    padding-top: 15%;
+}
+
+
+
+/*全体*/
+.responsive-iphone-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+
+
+/*改行*/
+.pc_none_responsive_block{
+    display: block;
+}
+
+.pc_block_responsive_none{
+    display: none;
+}
+
+
+
+/*コンテンツ内容*/
+
+/*WEB_DESIGN*/
+.news_design_title{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.news-time-category{
+    margin-bottom: 7%;
+}
+
+.news_design_text{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+/*大見出し*/
+.news_design_Headline{
+    margin-top: 9%;
+}
+
+/*小見出し*/
+.news_design_Subheading{
+    margin-top: 9%;
+}
+
+.news_design_Subheading{
+    margin-bottom: 13%;
+}
+
+
+
+/*各種リンク*/
+.news_desihn_link{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.design_list1{
+    margin-top: 9%;
+    margin-bottom: 18%;
+}
+
+.news_design_fb_tw_li_link{
+    display: flex;
+}
+
+.line-it-button{
+    margin-top: -2%;
+}
+
+.news_design_hatena_link{
+    margin-top: 6%;
+}
+
+}

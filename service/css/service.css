@@ -1,0 +1,163 @@
+/*背景部分*/
+.service_background{
+    background-image: url(../../common/img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+
+.service-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.service_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.service_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*サービス画面 一覧*/
+.Service-screen-frame{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.Service-screen-text{
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+.Service-screen-img-img{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.Service-screen-img{
+    width: 80%;
+}
+
+.Service-screen-title-text{
+    width: 50%;
+}
+
+.Service-screen-title{
+    font-size: 26px;
+    padding-top: 6%;
+    letter-spacing: 2px;
+}
+
+.Service-screen-sub-text{
+    padding-top: 3%;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
+
+.pc_block_responsive_none{
+    display: block;
+}
+
+
+
+
+
+/*レスポンシブ service.css(ipad mini)*/
+@media screen and (max-width :768px){    
+/*サービス画面 一覧*/
+.Service-screen-frame{
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Service-screen-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.Service-screen-img-img{
+    width: 100%;
+}
+
+.Service-screen-img{
+    width: 100%;
+}
+
+.Service-screen-title-text{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.Service-screen-title{
+    font-size: 18px;
+}
+
+.Service-screen-sub-text{
+    font-size: 14px;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
+
+.pc_block_responsive_none{
+    display: block;
+}
+
+}
+
+
+
+
+/*レスポンシブ service.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*全体幅*/    
+    .responsive-iphone-frame{
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+/*背景部分*/
+.service_background{
+    height: 230px;
+}
+
+.service-background-title{
+    padding-top: 15%;
+}
+
+/*サービス画面 一覧*/
+.Service-screen-title{
+    font-size: 16px;
+}
+
+.Service-screen-sub-text{
+    font-size: 12px;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+.pc_block_responsive_none{
+    display: none;
+}
+
+}

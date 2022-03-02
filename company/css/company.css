@@ -1,0 +1,333 @@
+/*背景部分*/
+.company_background{
+    background-image: url(../../common/img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+
+.company-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.company_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.company_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*company メッセージ 一覧*/
+.big__title11{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #391e88;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Overall-company{
+    background-image: url(../img/bg-face.png);
+    background-size: cover;
+    margin-top: 5%;
+    height: 400px;
+}
+
+.Overall-company1{
+    text-align: center;
+}
+
+.company-sub-title1{
+    padding-top: 3%;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
+
+
+.company-sub-title{
+    border-bottom: 10px solid yellow;
+}
+
+.text-company{
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.link-company{
+    margin-top: -3%;
+}
+
+.company-Heading-overall{
+    margin-top: 6%;
+}
+
+.company-Heading-flex{
+    display: flex;
+}
+
+.fadeIn_left {
+    opacity: 0;
+    transform: translate(-30%, 0);
+    transition: 3s;
+}
+
+.fadeIn_left.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.company-Heading-img{
+    width: 100%;
+}
+
+#animation {
+    
+}
+    
+    .fadeInDown {
+     -webkit-animation-fill-mode:both;
+     -ms-animation-fill-mode:both;
+     animation-fill-mode:both;
+     -webkit-animation-duration:1s;
+     -ms-animation-duration:1s;
+     animation-duration:1s;
+     -webkit-animation-name: fadeInDown;
+     animation-name: fadeInDown;
+     visibility: visible !important;
+    }
+    @-webkit-keyframes fadeInDown {
+     0% { opacity: 0; -webkit-transform: translateY(-20px); }
+     100% { opacity: 1; -webkit-transform: translateY(0); }
+    }
+    @keyframes fadeInDown {
+     0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+     100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+    }
+
+.company-Heading-text{
+    padding: 7%;
+}
+
+
+
+/*会社概要*/
+.Company-overview-frame{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+.big__title1{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #391e88;
+    text-align: center;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.Company-overview-flex{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+dt{
+    width: 200px;
+}
+
+dd{
+    width: 800px;
+}
+
+/*Google map*/
+.map-link{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.flex-map{
+    margin-top: 6%;
+    margin-bottom: 9%;
+}
+
+
+
+
+
+/*レスポンシブ company.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*company メッセージ 一覧*/
+.Overall-company{
+    margin-top: -25%;
+    background: none;
+    background-image: url(../img/sp_bg-circle.png);
+    background-size: contain;
+}
+
+.big__title11{
+    font-size: 30px;
+}
+
+.company-sub-title1{
+    margin-top: -10%;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+
+
+
+/*companyテキスト一覧*/
+.company-Heading-overall{
+    margin-bottom: -30%;
+}
+
+.company-Heading-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-img-top{
+    margin-top: 10%;
+}
+
+.company-Heading-img{
+    width: 100%;
+}
+
+.company-Heading-text-center{
+    text-align: center;
+}
+
+.company-Heading-text{
+    width: 100%;
+    padding: 9%;
+}
+
+
+
+
+/*会社概要*/    
+.company-title{
+    margin-bottom: 10%;
+    margin-top: 35%;
+}
+
+.big__title1{
+    font-size: 30px;
+}
+
+dl{
+    margin-bottom: 15%;
+}
+
+dt{
+    text-align: center;
+    width: 250px;
+}
+
+dd{
+    text-align: start;
+    width: 500px;
+}
+
+.company-resuponsive-hr{
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+}
+
+
+
+
+/*レスポンシブ company.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*全体幅*/
+.responsive-iphone-frame{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+/*背景部分*/
+.company_background{
+    height: 230px;
+}
+
+.company-background-title{
+    padding-top: 15%;
+}
+
+
+
+/*company メッセージ 一覧*/
+.company-title{
+    margin-top: 40%;
+}
+
+.text-company{
+    margin-top: 12%;
+}
+
+
+/*company テキスト 一覧*/
+.company-Heading-text-center{
+    text-align: -webkit-center;
+}
+
+.company-Heading-text{
+    width: 92%;
+}
+
+
+
+/*会社概要*/
+.company-resuponsive-hr{
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+dt{
+    font-size: 13px;
+    width: 300px;
+}
+
+dd{
+    font-size: 13px;
+    width: 550px;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+
+
+/*Google Map 一覧*/
+.flex-map{
+    margin-bottom: 25%;
+}
+
+
+/*contact 一覧*/
+
+
+}

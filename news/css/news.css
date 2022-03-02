@@ -1,0 +1,89 @@
+/*背景部分*/
+.news_background{
+    background-image: url(../../common/img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+
+.news-background-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.news_big__title{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.news_sub__title{
+    font-size: 13px;
+    display: block;
+}
+
+
+
+/*コンテンツ内容*/
+
+/*NEWS*/
+.Overall-news{
+    margin-bottom: 13%;
+    margin-top: 6%;
+}
+
+.news-link-1{
+    width: 73%;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
+
+
+
+
+/*レスポンシブ news.css(ipad mini)*/
+@media screen and (max-width :768px){
+/*コンテンツ内容*/
+
+/*NEWS*/
+.news-link-1{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.pc_none_responsive_block{
+    display: none;
+}
+
+}
+
+
+
+
+/*レスポンシブ news.css(iphone SE)*/
+@media screen and (max-width :375px){
+/*背景部分*/
+.news_background{
+    height: 230px;
+}
+
+.news-background-title{
+    padding-top: 15%;
+}
+
+
+
+/*NEWS*/
+.news-link-1{
+    width: 91%;
+}
+
+.pc_none_responsive_block{
+    display: block;
+}
+
+}
