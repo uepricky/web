@@ -79,13 +79,9 @@
     display: flex;
 }
 
-.company-img-top{
-    margin-top: 10%;
-}
-
 .fadeIn_left {
     opacity: 0;
-    transform: translate(-50%, 0);
+    transform: translate(-30%, 0);
     transition: 3s;
 }
 
@@ -207,6 +203,10 @@ dd{
 .company-Heading-flex{
     display: flex;
     flex-direction: column;
+}
+
+.company-img-top{
+    margin-top: 10%;
 }
 
 .company-Heading-img{
