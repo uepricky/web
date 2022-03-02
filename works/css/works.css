@@ -56,6 +56,12 @@
 .works-screen-img{
     width: 90%;
     box-shadow: -4px -4px 15px lightgray;
+    transition-duration: 0.5s;/*変化の時間*/
+}
+
+.works-screen-img:hover{
+    transform: scale(1.2,1.2);/*画像の拡大*/
+    cursor: pointer;/*カーソルをポインターにする*/
 }
 
 .works-screen-title{

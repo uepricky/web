@@ -211,9 +211,35 @@ time{
 
 
 /*SERVICE*/
+.title-center{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+h2{
+    position: relative;
+    display: inline-block;
+  }
+
+h2::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: blueviolet;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .5s;
+}
+  
+h2:hover::after {
+    transform: scale(1, 1);
+}
+
 .center2{
     text-align: center;
-    padding-bottom: 3%;
 }
 
 .text-service{
@@ -223,6 +249,33 @@ time{
 
 .text-service-1{
     width: 30%;
+}
+
+.fadeIn1{
+    opacity: 0;
+    transition: 2s;
+}
+
+.fadeIn2{
+    opacity: 0;
+    transition: 4s;
+}
+
+.fadeIn3{
+    opacity: 0;
+    transition: 6s;
+}
+
+.fadeIn1.is-show{
+    opacity: 1;
+}
+
+.fadeIn2.is-show{
+    opacity: 1;
+}
+
+.fadeIn3.is-show{
+    opacity: 1;
 }
 
 .service-img{
